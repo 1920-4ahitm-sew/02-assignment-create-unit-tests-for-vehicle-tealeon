@@ -50,4 +50,10 @@ public class VehicleEndPointIT {
         assertThat(dedicatedVehicle.getString("type"),equalTo("Commodore"));
     }
 
+    @Test
+    public void deleteVehicle(){
+        Response deleteResponse = this.target.path("42")
+                .request(MediaType.APPLICATION_JSON).delete();
+        assertThat(deleteResponse.getStatus(),is(204));
+    }
 }
