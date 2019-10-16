@@ -5,9 +5,9 @@
       <change afterPath="$PROJECT_DIR$/../Restprimer/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Restprimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restprimer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Restprimer/Restprimer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/at/htl/rest/VehicleEndPointIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/htl/rest/VehicleEndPointIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/at/htl/rest/VehicleEndPointIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/at/htl/rest/VehicleEndPointIT.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vehicle/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vehicle/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vehicle/Vehicle.iml" beforeDir="false" />
@@ -75,7 +75,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleEndPointIT.fetchVehicle (1)">
+  <component name="RunManager" selected="JUnit.VehicleEndPointIT.fetchType">
+    <configuration name="VehicleEndPointIT.fetchId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vehicle-st" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.htl.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.htl.rest" />
+      <option name="MAIN_CLASS_NAME" value="at.htl.rest.VehicleEndPointIT" />
+      <option name="METHOD_NAME" value="fetchId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleEndPointIT.fetchType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vehicle-st" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.htl.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.htl.rest" />
+      <option name="MAIN_CLASS_NAME" value="at.htl.rest.VehicleEndPointIT" />
+      <option name="METHOD_NAME" value="fetchType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VehicleEndPointIT.fetchVehicle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vehicle-st" />
       <extension name="coverage">
@@ -110,6 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VehicleEndPointIT.fetchType" />
+        <item itemvalue="JUnit.VehicleEndPointIT.fetchId" />
         <item itemvalue="JUnit.VehicleEndPointIT.fetchVehicle (1)" />
         <item itemvalue="JUnit.VehicleEndPointIT.fetchVehicle" />
       </list>
@@ -126,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570193677984</updated>
       <workItem from="1570193681252" duration="1922000" />
-      <workItem from="1571238417309" duration="1904000" />
+      <workItem from="1571238417309" duration="2095000" />
     </task>
     <servers />
   </component>
