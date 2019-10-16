@@ -3,14 +3,17 @@ package at.htl.rest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javax.json.JsonObject;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.StringContains.containsString;
 
 
 public class VehicleEndPointIT {
@@ -32,6 +35,11 @@ public class VehicleEndPointIT {
         System.out.println("payload = " + payload);
     }
 
-
-
+    @Test
+    public void fetchId(){
+        JsonObject dedicatedVehicle = this.target.path("42")
+                .request(MediaType.APPLICATION_JSON).get(JsonObject.class);
+        assertThat(dedicatedVehicle.getString("brand"), containsString("42"));
+        assertThat(dedicatedVehicle.getString("brand"),equalTo("Opel 42"));
+    }
 }

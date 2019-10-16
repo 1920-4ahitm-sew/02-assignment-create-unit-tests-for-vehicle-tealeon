@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c2cb45e8-ffc1-4b97-903b-d979e67594e2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Restprimer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Restprimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restprimer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Restprimer/Restprimer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vehicle-st.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/at/htl/rest/VehicleEndPointIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/htl/rest/VehicleEndPointIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vehicle/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vehicle/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle/.idea/compiler.xml" afterDir="false" />
@@ -31,7 +29,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\School\sew\uebungen\Vehicle-st\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -121,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570193677984</updated>
       <workItem from="1570193681252" duration="1922000" />
-      <workItem from="1571238417309" duration="995000" />
+      <workItem from="1571238417309" duration="1904000" />
     </task>
     <servers />
   </component>
